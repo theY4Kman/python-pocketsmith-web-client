@@ -1,0 +1,35 @@
+[tool.poetry]
+name = 'pocketsmith-web-client'
+version = '0.1.0'
+description = 'Pocketsmith web/realtime client, for things the API does not provide'
+authors = ['Zach "theY4Kman" Kanzler <they4kman@gmail.com>']
+license = 'MIT'
+homepage = 'https://github.com/theY4Kman/python-pocketsmith-api'
+readme = 'README.md'
+classifiers = [
+    'Development Status :: 4 - Beta',
+    'Intended Audience :: Developers',
+    'Intended Audience :: Financial and Insurance Industry',
+    'Topic :: Internet :: WWW/HTTP',
+]
+packages = [
+    { include = 'pocketsmith_web' },
+    { include = 'LICENSE', format = 'sdist' },
+    { include = 'CHANGELOG.md', format = 'sdist' },
+]
+
+[tool.poetry.dependencies]
+python = '>=3.6.1'
+
+aiostream = '^0.4.1'
+beautifulsoup4 = "^4.7.1"
+httpx = "^0.15.5"
+lifter = '^0.4.1'
+pyotp = "^2.3.0"
+websockets = '^8.1'
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ['poetry-core>=1.0.0']
+build-backend = 'poetry.core.masonry.api'
