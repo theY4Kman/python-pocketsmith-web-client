@@ -76,6 +76,7 @@ async def sync_my_mfa_bank():
         # Now shoot the token back to Pocketsmith
         await pwc.provide_feed_mfa(uys_id, item_id, token)
 
+
 def matches_uys_item(uys_id, item_id):
     uys_id = str(uys_id)
     item_id = str(item_id)

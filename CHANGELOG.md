@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 
 ## [Unreleased]
+### Fixed
+ - Update login POST URL to match Pocketsmith's latest change
+
+
+## [0.1.0] — 2020-10-12
 ### Added
  - Web-based Pocketsmith client, with support for syncing institutions, searching transactions, retrieving MFA popup info, and providing MFA credentials
  - Real-time Pusher client, enabling timely response to MFA forms for institutions requiring MFA

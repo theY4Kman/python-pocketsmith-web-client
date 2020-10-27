@@ -29,7 +29,7 @@ logger = logging.getLogger(__name__)
 class PocketsmithWebClient:
     class URLs:
         ROOT = 'https://my.pocketsmith.com/login'
-        LOGIN = 'https://my.pocketsmith.com/user_session'
+        LOGIN = 'https://my.pocketsmith.com/login'
         DASHBOARD = 'https://my.pocketsmith.com/dashboard'
         ACCOUNT_SUMMARY = 'https://my.pocketsmith.com/account_summary'
         CONFIRM_TFA = 'https://my.pocketsmith.com/confirm_two_factor'
